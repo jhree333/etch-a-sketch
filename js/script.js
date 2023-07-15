@@ -1,4 +1,4 @@
-let gridSize = 10;
+let gridSize = 16;
 
 const getRandomColor = () => {
   const r = Math.floor(Math.random() * 256);
@@ -64,4 +64,4 @@ blackBtn.addEventListener("click", () => {
   generateGrid(makeBlackColor, gridSize);
 });
 
-generateGrid(makeBlackColor, 10);
+generateGrid(makeBlackColor, gridSize);
